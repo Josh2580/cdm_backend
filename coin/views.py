@@ -11,4 +11,4 @@ class MiningViewSet(viewsets.ModelViewSet):
     """
     queryset = Mining.objects.all()
     serializer_class = MiningSerializer
-    permission_classes = [permissions.AllowAny]
+    # permission_classes = [permissions.AllowAny]
